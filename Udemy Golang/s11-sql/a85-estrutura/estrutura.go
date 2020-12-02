@@ -1,3 +1,6 @@
+// para instalar o pacote mysql executar:
+//    go get -u github.com/go-sql-driver/mysql
+//
 package main
 
 import (
@@ -15,10 +18,12 @@ func exec(db *sql.DB, sql string) sql.Result {
 }
 
 func main() {
-	db, err := sql.Open("mysql", "root:123456@/")
+	db, err := sql.Open("mysql", "root:root")
 	if err != nil {
 		panic(err)
 	}
+	// deixa pendente o close que é executado somente na saída do programa
+	// garante que a conexão com o banco será fechado.
 	defer db.Close()
 
 	exec(db, "create database if not exists cursogo")

@@ -3,7 +3,9 @@ package main
 import (
 	"fmt"
 
-	"github.com/cod3rcursos/html"
+	// "github.com/cod3rcursos/html"
+	// go get -u github.com/tarsoqueiroz/GoTQpack/html
+	"github.com/tarsoqueiroz/GoTQpack/html"
 )
 
 func encaminhar(origem <-chan string, destino chan string) {
