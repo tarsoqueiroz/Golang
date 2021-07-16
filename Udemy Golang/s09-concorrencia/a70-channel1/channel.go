@@ -10,4 +10,4 @@ func main() {
 
 	ch <- 2
 	fmt.Println(<-ch)
-}
+

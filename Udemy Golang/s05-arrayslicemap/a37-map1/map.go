@@ -6,10 +6,12 @@ func main() {
 	// var aprovados map[int]string
 	// mapas devem ser inicializados
 	aprovados := make(map[int]string)
+	fmt.Println(aprovados)
 
 	aprovados[12345678978] = "Maria"
 	aprovados[98765432100] = "Pedro"
 	aprovados[95135745682] = "Ana"
+	aprovados[12345678978] = "Mariana"
 	fmt.Println(aprovados)
 
 	for cpf, nome := range aprovados {

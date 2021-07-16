@@ -23,6 +23,10 @@ func main() {
 	c := make(chan int)
 	go doisTresQuatroVezes(2, c)
 
+	//	a := <-c // recebendo dados do canal
+	//	fmt.Println(a)
+	//	b := <-c
+	//	fmt.Println(b)
 	a, b := <-c, <-c // recebendo dados do canal
 	fmt.Println(a, b)
 

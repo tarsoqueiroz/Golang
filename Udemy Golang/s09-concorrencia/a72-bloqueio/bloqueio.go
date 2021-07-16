@@ -15,6 +15,7 @@ func main() {
 	c := make(chan int) // canal sem buffer
 
 	go rotina(c)
+	fmt.Println("Voltei da rotina!!!")
 
 	fmt.Println(<-c) // operação bloqueante
 	fmt.Println("Foi lido")

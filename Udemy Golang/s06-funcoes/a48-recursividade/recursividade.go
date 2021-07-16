@@ -15,7 +15,7 @@ func fatorial(n int) (int, error) {
 }
 
 func main() {
-	resultado, _ := fatorial(5)
+	resultado, _ := fatorial(4)
 	fmt.Println(resultado)
 
 	_, err := fatorial(-4)

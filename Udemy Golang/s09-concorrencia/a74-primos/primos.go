@@ -21,7 +21,7 @@ func primos(n int, c chan int) {
 			if isPrimo(primo) {
 				c <- primo
 				inicio = primo + 1
-				time.Sleep(time.Millisecond * 180)
+				time.Sleep(time.Millisecond * 90)
 				break
 			}
 		}
@@ -31,7 +31,7 @@ func primos(n int, c chan int) {
 
 func main() {
 	c := make(chan int, 30)
-	go primos(60, c)
+	go primos(20, c)
 	for primo := range c {
 		fmt.Printf("%d ", primo)
 	}

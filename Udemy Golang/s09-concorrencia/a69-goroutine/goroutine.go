@@ -13,12 +13,18 @@ func fale(pessoa, texto string, qtde int) {
 }
 
 func main() {
-	// fale("Maria", "Pq vc não fala comigo?", 3)
-	// fale("João", "Só posso falar depois de vc!", 1)
+	fmt.Printf("Maria 1 falando...")
+	fale("Maria 1", "Pq vc não fala comigo?", 3)
+	fmt.Printf("João  1 falando...")
+	fale("João  1", "Só posso falar depois de vc!", 1)
 
-	// go fale("Maria", "Ei...", 500)
-	// go fale("João", "Opa...", 500)
+	fmt.Printf("Maria 2 falando...")
+	go fale("Maria 2", "Ei...", 500)
+	fmt.Printf("João  2 falando...")
+	go fale("João  2", "Opa...", 500)
 
-	go fale("Maria", "Entendi!!!", 10)
-	fale("João", "Parabéns!", 5)
+	fmt.Printf("Maria 3 falando...")
+	go fale("Maria 3", "Entendi!!!", 10)
+	fmt.Printf("João  3 falando...")
+	fale("João  3", "Parabéns!", 5)
 }
