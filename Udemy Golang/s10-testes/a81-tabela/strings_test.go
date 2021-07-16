@@ -14,6 +14,7 @@ func TestIndex(t *testing.T) {
 		parte    string
 		esperado int
 	}{
+		{"leinardo", "o", 2},
 		{"Cod3r é show", "Cod3r", 0},
 		{"", "", 0},
 		{"Opa", "opa", -1},
