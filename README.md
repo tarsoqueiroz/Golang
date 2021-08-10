@@ -1,7 +1,8 @@
 # Golang
+
 Studies and tests of Go language.
 
-## Some tips & tricks
+## Tips & Tricks
 
 * Installing package
 
