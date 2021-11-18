@@ -18,17 +18,18 @@
 1. ex 013 - Multiple return values
 1. ex 014 - Variadic functions
 1. ex 015 - Closures
-Recursion
-Pointers
-Structs
-Methods
-Interfaces
-Errors
-Goroutines
-Channels
-Channel Buffering
-Channel Synchronization
-Channel Directions
+1. ex 016 - Recursion
+1. ex 017 - Pointers
+1. ex 018 - Structs
+1. ex 019 - Methods
+1. ex 020 - Interfaces
+1. ex 021 - Errors
+1. ex 022 - Goroutines
+1. ex 023 - Channels
+1. ex 024 - Channel Buffering
+1. ex 025 - Channel Synchronization
+1. ex 026 - Channel Directions
+
 Select
 Timeouts
 Non-Blocking Channel Operations
