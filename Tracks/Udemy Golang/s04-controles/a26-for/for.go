@@ -35,7 +35,7 @@ func main() {
 	for {
 		// laço infinito
 		fmt.Println("Para sempre a cada 30s...")
-		time.Sleep(time.Second * 30)
+		time.Sleep(time.Second * 3)
 	}
 
 	// Veremos o foreach no capítulo de array

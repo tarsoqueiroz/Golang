@@ -12,6 +12,8 @@ func main() {
 	x, y := trocar(2, 3)
 	fmt.Println(x, y)
 
-	segundo, primeiro := trocar(7, 1)
-	fmt.Println(segundo, primeiro)
+//	segundo, primeiro := trocar(7, 1)
+//	fmt.Println(segundo, primeiro)
+	primeiro, segundo := trocar(2, 1)
+	fmt.Println(primeiro, segundo)
 }

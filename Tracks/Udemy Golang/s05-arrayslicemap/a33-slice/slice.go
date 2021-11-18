@@ -28,4 +28,9 @@ func main() {
 	fmt.Println(a2, s2)
 	fmt.Println(a2, s3)
 	fmt.Println(s2, s4)
+
+	s4[0] = 88
+	fmt.Println(a2, s2)
+	fmt.Println(a2, s3)
+	fmt.Println(s2, s4)
 }

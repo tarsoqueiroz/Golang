@@ -15,4 +15,6 @@ func main() {
 
 	s = append(s, 1)
 	fmt.Println(s, len(s), cap(s))
+	s = append(s, 2)
+	fmt.Println(s, len(s), cap(s))
 }

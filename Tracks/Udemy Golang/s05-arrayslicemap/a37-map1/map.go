@@ -21,4 +21,7 @@ func main() {
 	fmt.Println(aprovados[95135745682])
 	delete(aprovados, 95135745682)
 	fmt.Println(aprovados[95135745682])
+	fmt.Println(aprovados)
+	fmt.Println(aprovados[95135745682])
+	fmt.Println("----------------")
 }
